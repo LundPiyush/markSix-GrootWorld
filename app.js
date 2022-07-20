@@ -23,4 +23,4 @@ function clickListener() {
         .catch(errorHandler)
 }
 
-btnTranslate.addEventListener("click", clickListener)
+btnTranslate.addEventListener("click", clickListener) // call back function is called here that's why we don't pass error as args
